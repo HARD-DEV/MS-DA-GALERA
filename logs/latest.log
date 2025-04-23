@@ -1,0 +1,272 @@
+[16:48:19] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.13
+[16:48:19] [ForkJoinPool-1-worker-12/WARN]: Mod mr_dungeons_andtaverns uses the version 3.0.3.f which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'f'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[16:48:20] [main/INFO]: Loading 128 mods:
+	- animal_feeding_trough 1.1.0+1.20.1
+	- appleskin 2.5.1+mc1.20
+	- architectury 9.2.14
+	- badpackets 0.4.3
+	- balm 7.3.27
+	   \-- kuma_api 20.1.10
+	- cardinal-components 5.2.3
+	   |-- cardinal-components-base 5.2.3
+	   |-- cardinal-components-block 5.2.3
+	   |-- cardinal-components-chunk 5.2.3
+	   |-- cardinal-components-entity 5.2.3
+	   |-- cardinal-components-item 5.2.3
+	   |-- cardinal-components-level 5.2.3
+	   |-- cardinal-components-scoreboard 5.2.3
+	   \-- cardinal-components-world 5.2.3
+	- cloth-config 11.1.136
+	   \-- cloth-basic-math 0.6.1
+	- collective 8.3
+	- create 0.5.1-j-build.1631+mc1.20.1
+	   |-- com_google_code_findbugs_jsr305 3.0.2
+	   |-- flywheel 0.6.11-4
+	   |-- forgeconfigapiport 8.0.0
+	   |-- milk 1.2.60
+	   |    \-- dripstone_fluid_lib 3.0.2
+	   |-- porting_lib_accessors 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_base 2.3.8+1.20.1
+	   |    |-- com_electronwill_night-config_core 3.6.6
+	   |    |-- com_electronwill_night-config_toml 3.6.6
+	   |    |-- porting_lib_attributes 2.3.8+1.20.1
+	   |    |-- porting_lib_common 2.3.8+1.20.1
+	   |    |-- porting_lib_config 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    |-- porting_lib_fluids 2.3.8+1.20.1
+	   |    |-- porting_lib_gui_utils 2.3.8+1.20.1
+	   |    |-- porting_lib_lazy_registration 2.3.8+1.20.1
+	   |    |-- porting_lib_mixin_extensions 2.3.8+1.20.1
+	   |    |-- porting_lib_utility 2.3.8+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_brewing 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_client_events 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_entity 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    \-- porting_lib_mixin_extensions 2.3.8+1.20.1
+	   |-- porting_lib_extensions 2.3.8+1.20.1
+	   |    |-- porting_lib_attributes 2.3.8+1.20.1
+	   |    |-- porting_lib_common 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_models 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    |-- porting_lib_fluids 2.3.8+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.8+1.20.1
+	   |-- porting_lib_networking 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_obj_loader 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.8+1.20.1
+	   |-- porting_lib_tags 3.0
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_tool_actions 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_transfer 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    \-- porting_lib_fluids 2.3.8+1.20.1
+	   |-- reach-entity-attributes 2.4.0
+	   \-- registrate-fabric 1.3.79-MC1.20.1
+	        |-- com_google_code_findbugs_jsr305 3.0.2
+	        |-- porting_lib_data 2.1.1090+1.20
+	        |    \-- porting_lib_gametest 2.1.1090+1.20
+	        \-- porting_lib_model_generators 2.1.1090+1.20
+	             |-- porting_lib_gametest 2.1.1090+1.20
+	             \-- porting_lib_model_materials 2.1.1090+1.20
+	- cristellib 1.1.5
+	   \-- blue_endless_jankson 1.2.3
+	- fabric-api 0.92.5+1.20.1
+	   |-- fabric-api-base 0.4.32+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.37+1802ada577
+	   |-- fabric-biome-api-v1 13.0.14+1802ada577
+	   |-- fabric-block-api-v1 1.0.12+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.3+924f046a77
+	   |-- fabric-blockrenderlayer-v1 1.1.42+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.3+1802ada577
+	   |-- fabric-command-api-v1 1.2.35+f71b366f77
+	   |-- fabric-command-api-v2 2.2.14+1802ada577
+	   |-- fabric-commands-v0 0.2.52+df3654b377
+	   |-- fabric-containers-v0 0.1.66+df3654b377
+	   |-- fabric-content-registries-v0 4.0.13+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.6+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.20+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.2+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.6+1802ada577
+	   |-- fabric-dimensions-v1 2.1.55+1802ada577
+	   |-- fabric-entity-events-v1 1.6.1+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.4+13a40c6677
+	   |-- fabric-events-lifecycle-v0 0.2.64+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.41+1802ada577
+	   |-- fabric-item-api-v1 2.1.29+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.14+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.38+1802ada577
+	   |-- fabric-keybindings-v0 0.2.36+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.23+1802ada577
+	   |-- fabric-loot-api-v2 1.2.3+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.47+9e7660c677
+	   |-- fabric-message-api-v1 5.1.10+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.52+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.4+1802ada577
+	   |-- fabric-models-v0 0.4.3+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.13+13a40c6677
+	   |-- fabric-networking-v0 0.3.53+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.5+e35120df77
+	   |-- fabric-particles-v1 1.1.3+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.23+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.5+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.2+1802ada577
+	   |-- fabric-renderer-indigo 1.5.3+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.47+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.39+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.29+1802ada577
+	   |-- fabric-rendering-v0 1.1.50+df3654b377
+	   |-- fabric-rendering-v1 3.0.9+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.9+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.12+fb82e9d777
+	   |-- fabric-screen-api-v1 2.0.9+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.32+1802ada577
+	   |-- fabric-sound-api-v1 1.0.14+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.6+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.2+1802ada577
+	- fabricloader 0.16.13
+	   \-- mixinextras 0.4.1
+	- fallingtree 4.3.4
+	- fertilization 12.0.0
+	- inventoryessentials 8.2.7
+	- jamlib 1.3.5+1.20.1
+	- java 24
+	- journeymap 5.10.3
+	   \-- journeymap-api-fabric 1.20-1.9-fabric-SNAPSHOT
+	- justhammers 20.1.5+mc1.20.1
+	- lolmcv 1.5.6
+	- mcwdoors 1.1.2
+	- mes 1.3.4-1.20-fabric
+	- minecraft 1.20.1
+	- mns 1.0.3-1.20-fabric
+	- mod_id 1.1.3-1
+	- mr_dungeons_andtaverns 3.0.3.f
+	- quad 1.2.9
+	- resource_cracker 1.12.1
+	- resourceconfigapi 1.20-1.2.0
+	- resourcelibrary 1.20.1-1.3.1
+	- rightclickharvest 4.5.3+1.20.1
+	- sound_physics_remastered 1.20.1-1.4.12
+	- spyglass-improvements 1.5.1+mc1.20+fabric
+	- supermartijn642corelib 1.1.18+a
+	- t_and_t 1.12
+	- terralith 2.5.4
+	- trashcans 1.0.18
+	   \-- team_reborn_energy 3.0.0
+	- travelersbackpack 9.1.33
+	   \-- reach-entity-attributes 2.4.0
+	- villagernames 8.2
+	- waystones 14.1.11
+	- wthit 8.16.2
+[16:48:20] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/digit/Downloads/Server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[16:48:20] [main/INFO]: Compatibility level set to JAVA_16
+[16:48:20] [main/INFO]: Compatibility level set to JAVA_17
+[16:48:20] [main/WARN]: Reference map 'justhammers-common-refmap.json' for justhammers-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:48:21] [main/WARN]: Reference map 'resourceconfigapi.refmap.json' for resourceconfigapi.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:48:21] [main/WARN]: Reference map 'resourceconfigapi.refmap.json' for resourceconfigapi.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:48:21] [main/WARN]: Reference map 'resourcelibrary.refmap.json' for resourcelibrary.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:48:21] [main/WARN]: Reference map 'resourcelibrary.refmap.json' for resourcelibrary.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:48:21] [main/WARN]: Reference map 'trashcans.mixins.refmap.json' for trashcans.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:48:21] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
+[16:48:21] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
+[16:48:21] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
+[16:48:21] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
+[16:48:21] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[16:48:21] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[16:48:21] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[16:48:31] [main/INFO]: [Animal Feeding Trough] Load Complete! Enjoy :D
+[16:48:31] [main/INFO]: Loading Collective version 8.3.
+[16:48:33] [main/ERROR]: Errors were encountered when loading the config file fertilization-common.toml:
+[16:48:33] [main/ERROR]: - Error loading config property [] 'flowerBlocks'
+java.lang.NullPointerException: null
+	at java.lang.Class.isAssignableFrom(Native Method) ~[?:?]
+	at net.blay09.mods.balm.fabric.config.FabricConfigLoader.convertValue(FabricConfigLoader.java:211) ~[balm-fabric-1.20.1-7.3.27.jar:?]
+	at net.blay09.mods.balm.fabric.config.FabricConfigLoader.convertValue(FabricConfigLoader.java:198) ~[balm-fabric-1.20.1-7.3.27.jar:?]
+	at net.blay09.mods.balm.fabric.config.FabricConfigLoader.load(FabricConfigLoader.java:59) ~[balm-fabric-1.20.1-7.3.27.jar:?]
+	at net.blay09.mods.balm.fabric.config.FabricBalmConfig.initializeBackingConfig(FabricBalmConfig.java:30) ~[balm-fabric-1.20.1-7.3.27.jar:?]
+	at net.blay09.mods.balm.api.config.AbstractBalmConfig.registerConfig(AbstractBalmConfig.java:104) ~[balm-fabric-1.20.1-7.3.27.jar:?]
+	at net.blay09.mods.fertilization.FertilizationConfig.initialize(FertilizationConfig.java:11) ~[fertilization-fabric-1.20-12.0.0.jar:?]
+	at net.blay09.mods.fertilization.Fertilization.initialize(Fertilization.java:12) ~[fertilization-fabric-1.20-12.0.0.jar:?]
+	at net.blay09.mods.balm.fabric.FabricBalmRuntime.initialize(FabricBalmRuntime.java:227) ~[balm-fabric-1.20.1-7.3.27.jar:?]
+	at net.blay09.mods.balm.api.Balm.initialize(Balm.java:43) ~[balm-fabric-1.20.1-7.3.27.jar:?]
+	at net.blay09.mods.fertilization.FabricFertilization.onInitialize(FabricFertilization.java:9) ~[fertilization-fabric-1.20-12.0.0.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:399) ~[fabric-loader-0.16.13.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startServer(Hooks.java:63) ~[fabric-loader-0.16.13.jar:?]
+	at net.minecraft.server.Main.main(Main.java:112) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.13.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.13.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.13.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.13.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[server.jar:1.0.3]
+[16:48:34] [main/ERROR]: The affected properties have been reset to their defaults and a backup of the corrupted version was created under fertilization-common.toml.bak4
+[16:48:34] [main/INFO]: Initializing JamLib on Fabric
+[16:48:34] [main/INFO]: Initializing ServerSide Packet Registries
+[16:48:34] [main/INFO]: Hello Fabric world!
+[16:48:34] [main/INFO]: Hello from Common init on Fabric! we are currently in a production environment!
+[16:48:34] [main/INFO]: The ID for diamonds is minecraft:diamond
+[16:48:34] [main/INFO]: [STDOUT]: Registrando Items para many_more_ores_and_crafts
+[16:48:34] [main/INFO]: [Quad] Initialising the Quad mod power! >:P
+[16:48:34] [main/INFO]: Updated config file at C:\Users\digit\Downloads\Server\config\rightclickharvest.json5
+[16:48:34] [main/INFO]: Initializing Right Click Harvest on FABRIC
+[16:48:34] [main/ERROR]: No data fixer registered for 
+[16:48:34] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[16:48:34] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[16:48:34] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[16:48:34] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[16:48:34] [main/INFO]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
+[16:48:34] [main/INFO]: [WTHIT] Initializing plugin waystones:plugin at net.blay09.mods.waystones.compat.WTHITIntegration
+[16:48:34] [main/INFO]: [WTHIT] Initializing common plugin waila:core at mcp.mobius.waila.plugin.core.CoreCommonPlugin
+[16:48:34] [main/INFO]: [WTHIT] Initializing common plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.VanillaCommonPlugin
+[16:48:34] [main/INFO]: [WTHIT] Initializing common plugin waila:harvest at mcp.mobius.waila.plugin.harvest.HarvestCommonPlugin
+[16:48:34] [main/INFO]: [WTHIT] Initializing common plugin waila:fabric at mcp.mobius.waila.plugin.fabric.FabricCommonPlugin
+[16:48:34] [main/INFO]: [WTHIT] Initializing common plugin waila:team_reborn_energy at mcp.mobius.waila.plugin.trenergy.TeamRebornEnergyCommonPlugin
+[16:48:34] [main/INFO]: [WTHIT] Initializing plugin waystones:wthit at net.blay09.mods.waystones.compat.WTHITIntegration
+[16:48:34] [main/INFO]: [WTHIT] Initializing common plugin waila:extra at mcp.mobius.waila.plugin.extra.ExtraPlugin
+[16:48:35] [main/WARN]: [WTHIT] Found plugins registered via legacy platform-dependant method:
+[16:48:35] [main/WARN]: [WTHIT] [waystones:wthit]
+[16:48:35] [main/WARN]: [WTHIT] The method will be removed on Minecraft 1.21
+[16:48:35] [main/INFO]: [WTHIT] Plugin config reloaded
+[16:48:35] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:48:38] [main/INFO]: Loaded 23 recipes
+[16:48:38] [main/ERROR]: Parsing error loading custom advancement minecraft:recipes/decorations/chest: Missing criteria, expected to find a JsonObject
+[16:48:38] [main/ERROR]: Parsing error loading custom advancement minecraft:recipes/redstone/trapped_chest: Missing criteria, expected to find a JsonObject
+[16:48:38] [main/INFO]: Loaded 2646 advancements
+[16:48:39] [main/INFO]: [Quad] loaded default fuel values
+[16:48:39] [main/INFO]: [Quad] loaded quad fuel tags
+[16:48:39] [main/INFO]: Applied 462 biome modifications to 163 of 163 new biomes in 44.25 ms
+[16:48:39] [Server thread/INFO]: [Quad] cached original fuel map with count of: 499
+[16:48:39] [Server thread/INFO]: [WTHIT] Plugin config reloaded
+[16:48:39] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[16:48:39] [Server thread/INFO]: Loading properties
+[16:48:39] [Server thread/INFO]: Default game type: SURVIVAL
+[16:48:39] [Server thread/INFO]: Generating keypair
+[16:48:39] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:48:39] [Server thread/INFO]: Using default channel type
+[16:48:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:48:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:48:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:48:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:48:39] [Server thread/INFO]: Preparing level "world"
+[16:48:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:48:43] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[16:48:43] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:48:43] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:48:43] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:48:43] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:48:43] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[16:48:44] [Worker-Main-10/INFO]: Preparing spawn area: 4%
+[16:48:44] [Worker-Main-2/INFO]: Preparing spawn area: 60%
+[16:48:44] [Server thread/INFO]: Time elapsed: 3727 ms
+[16:48:44] [Server thread/INFO]: Done (4.909s)! For help, type "help"
+[16:48:51] [Server thread/INFO]: TryHardzinho[/127.0.0.1:52152] logged in with entity id 185 at (-25.899650998492813, 78.0, -107.44693160850892)
+[16:48:51] [Server thread/INFO]: Loading config from file...
+[16:48:51] [Server thread/INFO]: TryHardzinho joined the game
+[16:49:29] [Server thread/INFO]: TryHardzinho lost connection: Disconnected
+[16:49:29] [Server thread/INFO]: TryHardzinho left the game

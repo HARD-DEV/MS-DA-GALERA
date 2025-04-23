@@ -1,0 +1,21 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-04-23 16:40:38 -0300"
+    },
+    "done": true
+  },
+  "many_more_ores_and_crafts:mod_achievement": {
+    "criteria": {
+      "mod_achievement_0": "2025-04-23 16:40:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:river": "2025-04-23 16:41:24 -0300"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}
